@@ -1,9 +1,7 @@
-(function() {
-  var EXCLAMATION_MARK_COUNT = 5;
-
-  function exclaim(string) {
-    return string + "!".repeat(EXCLAMATION_MARK_COUNT);
+(function(exports) {
+  function Note() {
+    this.text = "My favourite language is javascript!";
   }
 
-  exports.exclaim = exclaim;
+  exports.Note = Note;
 })(this);

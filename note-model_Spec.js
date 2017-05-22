@@ -1,7 +1,10 @@
-var notes = require("./note-model").note
+(function(exports) {
+  function testNoteHasText() {
+    var note = new Note();
 
-if (notes"greeting") !== "Welcome to notes") {
-  throw new Error("Greeting should equal Welcome to notes");
-} else {
-  console.log(".");
-}
+    if (note.text !== "My favourite language is javascript!") {
+      throw new Error("incorrect text shown");
+    }
+  }
+  testNoteHasText();
+})(this) ;
