@@ -1,13 +1,9 @@
 (function(exports) {
   function testListOfNotes() {
-    var list = new List();
-    this.list = [];
+    var list = new listOfNotes();
 
-    if (this.list) === [] {
+    if (list.listItems.length !== 1) {
       throw new Error("Please enter a note");
-    } else {
-      return this.list;
     }
   }
-  testListOfNotes();
 })(this);
