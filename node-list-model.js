@@ -1,7 +1,3 @@
-(function(exports) {
-  function listOfNotes() {
-    this.listItems = [];
-  }
-
-  exports.list = listOfNotes;
-})(this);
+function listOfNotes() {
+  this.listItems = [];
+}
