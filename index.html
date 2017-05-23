@@ -6,3 +6,10 @@
 <script src="./note-list-view.js"></script>
 <script src="./note-list-view_Spec.js"></script>
 <h1>Welcome to our Notes Application</h1>
+<script>
+  var list = new listOfNotes();
+  var view = new noteListView(list);
+  list.writeNote("Favourite food: pesto");
+  list.writeNote("Favourite drink: seltzer");
+  document.write(view.displayPage())
+</script>
