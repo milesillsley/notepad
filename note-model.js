@@ -1,3 +1,3 @@
-function Note() {
-  this.text = "My favourite language is javascript!";
+function Note(text) {
+  this.text = text;
 }
