@@ -2,6 +2,7 @@
   var noteListView = function(list) {
     this.list = list;
   };
+  
   noteListView.prototype.displayPage = function() {
     var display = "<ul>";
     this.list.listItems.forEach(function(note) {

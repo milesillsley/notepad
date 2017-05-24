@@ -19,9 +19,18 @@
     },
 
     isDefined: function(assertion) {
-      if (assertion !== null )
+      if (assertion !== null ) {
         throw new Error("Assertion failed: " + assertion + " is undefined.");
-    }
+      }
+    },
+
+    isConstructedFrom: function(object, constructor) {
+      if (object instanceof constructor !== true) {
+        throw new Error("Assertion failed: " + object +
+        " is not an instance of " + constructor);
+      }
+    },
+
   };
   exports.assert = assert;
 })(this);
