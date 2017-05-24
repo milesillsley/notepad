@@ -1,0 +1,22 @@
+{
+  "name": "daniel",
+  "version": "1.0.0",
+  "description": "notepad",
+  "main": "testLibrary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesillsley/notepad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesillsley/notepad/issues"
+  },
+  "homepage": "https://github.com/milesillsley/notepad#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
