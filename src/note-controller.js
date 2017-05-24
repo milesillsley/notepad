@@ -4,9 +4,8 @@
   };
 
   controller.prototype.changeGretting = function() {
-      document.getElementById("demo").innerHTML = 5 + 6;
+      document.getElementById("app").innerHTML = "Hi Folks";
   };
-
 
   exports.controller =  controller;
 })(this);
