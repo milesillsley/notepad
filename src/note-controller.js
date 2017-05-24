@@ -1,6 +1,12 @@
 (function(exports) {
   var controller = function() {
-    return console.log(document.getElementById("app"));
+      this.greeting = document.getElementById('app');
   };
-  exports.controller = controller;
+
+  controller.prototype.changeGretting = function() {
+      document.getElementById("demo").innerHTML = 5 + 6;
+  };
+
+
+  exports.controller =  controller;
 })(this);
